@@ -18,7 +18,7 @@ The working directory should be set to the folder "UCI HAR Dataset" in the unzip
 
 ##Output of the R script
 On running the R script, following two tidy data objects will be created
-1. *td:* this data table has mean and std measurements for all subjects and activity combinations (both train and test) present in the untidy data set. Column names are descriptive and so are the activity values. Subjects are numbered from 1-30. This has 10299 rows.
-2. *td_mean:* this data table has the -average- values for each mean and std measurement, per subject and activity. This is an aggregate created using td. This has 35 rows. 
+1. **td:** this data table has mean and std measurements for all subjects and activity combinations (both train and test) present in the untidy data set. Column names are descriptive and so are the activity values. Subjects are numbered from 1-30. This has 10299 rows.
+2. **td_mean:** this data table has the _average_ values for each mean and std measurement, per subject and activity. This is an aggregate created using **td**. This has 35 rows. 
 
-Refer to codebook.md for more information on the variables and data points, and the transformations done in R script to create the tidy data. 
+Refer to **codebook.md** for more information on the variables and data points, and the transformations done in R script to create the tidy data. 
