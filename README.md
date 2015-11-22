@@ -9,7 +9,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 ##Included in this repository
 1. a run_analysis.r script that can be used to create a tidy data set using the data from the URL above
-2. a code book that describes the variables, the data, and any transformations or work that was performed to clean up the data (using the R script. 
+2. a code book that describes the variables, the data, and any transformations or work that was performed to clean up the data (using the R script). 
 This file is called CodeBook.md. 
 
 ##Steps to run the R script
